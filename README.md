@@ -32,3 +32,15 @@ then use GNU stow to create symlinks
 ```
 stow .
 ```
+
+## Add New Folder
+
+To add new folder to stow, create a new folder and copy the source folder to the new folder directory.
+
+```
+cd dotfiles
+mkdir new_folder
+mv source_folder/source_file new_folder/
+cd dotfiles
+stow newfolder
+```
