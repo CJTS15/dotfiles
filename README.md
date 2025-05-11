@@ -42,5 +42,5 @@ cd dotfiles
 mkdir new_folder
 mv source_folder/source_file new_folder/
 cd dotfiles
-stow newfolder
+stow new_folder
 ```
