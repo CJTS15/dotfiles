@@ -1,0 +1,9 @@
+{
+  "OutputPlugin": "PipeWire",
+  "PreampDecibels": 0.0,
+  "RepeatMode": 2,
+  "ReplayGainMode": 2,
+  "TimeChangeMode": 1,
+  "Transport": 0,
+  "Volume": 1.0
+}
