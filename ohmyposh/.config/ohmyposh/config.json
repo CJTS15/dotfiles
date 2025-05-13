@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
   "console_title_template": " {{ .Folder }} :: {{if .Root}}Admin{{end}}",
   "palette": {
-    "main-bg": "#24283b",
+    "main-bg": "#121212",
     "terminal-red": "#f7768e",
     "pistachio-green": "#9ece6a",
     "terminal-green": "#73daca",
