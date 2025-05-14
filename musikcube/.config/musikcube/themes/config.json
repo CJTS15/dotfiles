@@ -1,162 +1,162 @@
 {
-  "name": "Gray",
+  "name": "dracula",
   "schemaVersion": 1,
   "colors": {
     "background": {
-      "hex": "#121212",
-      "palette": 234
+      "hex": "#282a36",
+      "palette": 235
     },
     "foreground": {
-      "hex": "#cccccc",
-      "palette": 254
+      "hex": "#f8f8f2",
+      "palette": 229
     },
     "frame_focused": {
-      "hex": "#E06C75",
-      "palette": 160
+      "hex": "#8be9fd",
+      "palette": 167
     },
     "frame_important": {
-      "hex": "#268bd2",
-      "palette": 33
+      "hex": "#458588",
+      "palette": 66
     },
     "text_focused": {
-      "hex": "#E06C75",
-      "palette": 160
+      "hex": "#8be9fd",
+      "palette": 167
     },
     "text_active": {
-      "hex": "#ffffff",
-      "palette": 64
+      "hex": "#bd93f9",
+      "palette": 142
     },
     "text_disabled": {
-      "hex": "#93a1a1",
-      "palette": 245
+      "hex": "#44475a",
+      "palette": 243
     },
     "text_hidden": {
-      "hex": "#073642",
-      "palette": 235
+      "hex": "#44475a",
+      "palette": 237
     },
     "text_warning": {
-      "hex": "#b58900",
-      "palette": 136
+      "hex": "#f1fa8c",
+      "palette": 214
     },
     "text_error": {
-      "hex": "#dc322f",
-      "palette": 160
+      "hex": "#ff5555",
+      "palette": 167
     },
     "overlay_background": {
-      "hex": "#586e75",
-      "palette": 240
+      "hex": "#282a36",
+      "palette": 239
     },
     "overlay_foreground": {
-      "hex": "#fdf6e3",
-      "palette": 230
+      "hex": "#f8f8f2",
+      "palette": 223
     },
     "overlay_border": {
-      "hex": "#073642",
-      "palette": 235
+      "hex": "#6272a4",
+      "palette": 109
     },
     "overlay_focused_border": {
-      "hex": "#dc322f",
-      "palette": 160
+      "hex": "#8be9fd",
+      "palette": 167
     },
     "overlay_focused_text": {
-      "hex": "#dc322f",
-      "palette": 160
+      "hex": "#8be9fd",
+      "palette": 167
     },
     "shortcuts_background": {
-      "hex": "#252b2d",
-      "palette": 240
+      "hex": "#44475a",
+      "palette": 239
     },
     "shortcuts_foreground": {
-      "hex": "#fdf6e3",
-      "palette": 230
+      "hex": "#f8f8f2",
+      "palette": 223
     },
     "shortcuts_background_focused": {
-      "hex": "#E06C75",
-      "palette": 160
+      "hex": "#ff5555",
+      "palette": 124
     },
     "shortcuts_foreground_focused": {
-      "hex": "#fdf6e3",
-      "palette": 230
+      "hex": "#f8f8f2",
+      "palette": 229
     },
     "button_background_normal": {
-      "hex": "#373f42",
-      "palette": 254
+      "hex": "#f8f8f2",
+      "palette": 223
     },
     "button_foreground_normal": {
-      "hex": "#cccccc",
-      "palette": 234
+      "hex": "#44475a",
+      "palette": 237
     },
     "button_background_active": {
-      "hex": "#787b7c",
-      "palette": 64
+      "hex": "#bd93f9",
+      "palette": 142
     },
     "button_foreground_active": {
-      "hex": "#ffffff",
-      "palette": 230
+      "hex": "#282a36",
+      "palette": 235
     },
     "header_background": {
-      "hex": "#002b36",
-      "palette": 234
+      "hex": "#282a36",
+      "palette": 235
     },
     "header_foreground": {
-      "hex": "#93a1a1",
-      "palette": 245
+      "hex": "#f8f8f2",
+      "palette": 243
     },
     "footer_background": {
-      "hex": "#cb4b16",
-      "palette": 166
+      "hex": "#ff79c6",
+      "palette": 132
     },
     "footer_foreground": {
-      "hex": "#eee8d5",
-      "palette": 254
+      "hex": "#6272a4",
+      "palette": 229
     },
     "banner_background": {
-      "hex": "#cb4b16",
-      "palette": 166
+      "hex": "#8be9fd",
+      "palette": 66
     },
     "banner_foreground": {
-      "hex": "#eee8d5",
-      "palette": 254
+      "hex": "#f8f8f2",
+      "palette": 229
     },
     "list_header_background": {
-      "hex": "#393E46",
-      "palette": 234
+      "hex": "#282a36",
+      "palette": 237
     },
     "list_header_foreground": {
-      "hex": "#EEEEEE",
-      "palette": 64
+      "hex": "#bd93f9",
+      "palette": 214
     },
-    "list_header_highlighted_background": {
-      "hex": "#EEEEEE",
-      "palette": 64
+      "list_header_highlighted_background": {
+      "hex": "#bd93f9",
+      "palette": 214
     },
     "list_header_highlighted_foreground": {
-      "hex": "#393E46",
-      "palette": 234
+      "hex": "#44475a",
+      "palette": 237
     },
     "list_item_highlighted_background": {
-      "hex": "#393E46",
-      "palette": 245
+      "hex": "#bd93f9",
+      "palette": 142
     },
     "list_item_highlighted_foreground": {
-      "hex": "#EEEEEE",
-      "palette": 234
+      "hex": "#44475a",
+      "palette": 237
     },
     "list_item_active_background": {
-      "hex": "#EEEEEE",
-      "palette": 254
+      "hex": "#8be9fd",
+      "palette": 109
     },
     "list_item_active_foreground": {
-      "hex": "#393E46",
+      "hex": "#282828",
       "palette": 235
     },
     "list_item_active_highlighted_background": {
-      "hex": "#393E46",
-      "palette": 230
+      "hex": "#bd93f9",
+      "palette": 66
     },
     "list_item_active_highlighted_foreground": {
-      "hex": "#EEEEEE",
-      "palette": 235
+      "hex": "#f8f8f2",
+      "palette": 229
     }
   }
 }
