@@ -13,16 +13,15 @@
       "alignment": "left",
       "newline": true,
       "segments": [
-        
         {
           "foreground": "p:pink",
           "properties": {
             "folder_icon": "..\ue5fe..",
-            "home_icon": " ~",
+            "home_icon": "~",
             "style": "agnoster_short"
           },
           "style": "plain",
-          "template": "{{ .Path }} ",
+          "template": " {{ .Path }} ",
           "type": "path"
         },
         {
