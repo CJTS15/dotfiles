@@ -8399,6 +8399,11 @@ menubar.-vala-panel-background > menuitem:disabled {
   padding-bottom: 3px;
 }
 
+VteTerminal, TerminalScreen, vte-terminal {
+  padding: 15px;
+  -VteTerminal-inner-border: 15px;
+}
+
 /* GTK NAMED COLORS
    ----------------
    use responsibly! */
