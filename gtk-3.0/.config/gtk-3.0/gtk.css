@@ -1,0 +1,42 @@
+VteTerminal, TerminalScreen, vte-terminal {
+  padding: 15px;
+  -VteTerminal-inner-border: 15px;
+}
+
+/* Active window colors */
+@define-color active_window_bg_color @theme_selected_bg_color;
+@define-color active_window_fg_color @theme_selected_fg_color;
+
+/* Inactive window colors */
+@define-color inactive_window_fg_color @theme_unfocused_fg_color;
+@define-color inactive_window_bg_color @theme_unfocused_bg_color;
+
+headerbar {
+    box-shadow: none;
+}
+
+headerbar:not(:backdrop) {
+  border: 1px solid @active_window_bg_color;
+  border-bottom-style: none;
+}
+
+headerbar:backdrop {
+  border: 1px solid @inactive_window_bg_color;
+  border-bottom-style: none;
+}
+
+decoration:not(:backdrop) {
+  border: 1px solid @active_window_bg_color;
+  background: @active_window_bg_color;
+}
+
+decoration:backdrop {
+  border: 1px solid @inactive_window_bg_color;
+  background: @inactive_window_bg_color;
+}
+
+
+/***** scrollbar slider - cinnamon-settings-generated - do not edit *****/
+
+/***** scrollbar slider - cinnamon-settings-generated - do not edit *****/
+
