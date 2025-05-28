@@ -1,8 +1,8 @@
-@import "catppuccin-mocha"
+@import "theme/catppuccin-mocha"
 
 configuration {
 
-  font: "Inter 14";
+  font: "Firacode Nerd Font 12";
   modi: "window,drun,emoji";
   show-icons: true;
   icon-theme: "Tela-purple-dark";
@@ -10,6 +10,6 @@ configuration {
   location: 0;
   disable-history: false;
   hide-scrollbar: false;
-  display-drun: "";
+  display-drun: " ";
 
 }

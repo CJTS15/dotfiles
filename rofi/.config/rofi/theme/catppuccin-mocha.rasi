@@ -1,32 +1,39 @@
 @import "catppuccin-mocha-colors"
 
 * {
-  selected-active-foreground:  @background;
-  lightfg:                     @text;
-  separatorcolor:              @foreground;
-  urgent-foreground:           @red;
-  alternate-urgent-background: @lightbg;
-  lightbg:                     @mantle;
-  background-color:            transparent;
-  border-color:                @foreground;
-  normal-background:           @background;
-  selected-urgent-background:  @red;
-  alternate-active-background: @lightbg;
-  spacing:                     2;
-  alternate-normal-foreground: @foreground;
-  urgent-background:           @background;
-  selected-normal-foreground:  @lightbg;
-  active-foreground:           @blue;
   background:                  @base;
-  selected-active-background:  @blue;
-  active-background:           @background;
-  selected-normal-background:  @lightfg;
-  alternate-normal-background: @lightbg;
   foreground:                  @text;
-  selected-urgent-foreground:  @background;
+  background-color:            transparent;
+  normal-background:           @background;
   normal-foreground:           @foreground;
+  lightbg:                     @mantle;
+  lightfg:                     @text;
+  
+  border-color:                @foreground;
+  spacing:                     2;
+  separatorcolor:              @foreground;
+  
+  alternate-normal-background: @lightbg;
+  alternate-active-background: @lightbg;
+  alternate-urgent-background: @lightbg;
+  
+  alternate-normal-foreground: @foreground;
   alternate-urgent-foreground: @red;
   alternate-active-foreground: @blue;
+  
+  selected-normal-background:  @lightfg;
+  selected-active-background:  @blue;
+  selected-urgent-background:  @red;
+  
+  selected-normal-foreground:  @lightbg;
+  selected-active-foreground:  @background;
+  selected-urgent-foreground:  @background;
+  
+  urgent-background:           @background;
+  urgent-foreground:           @red;
+  
+  active-background:           @background;
+  active-foreground:           @blue;
 
 }
 element {
@@ -61,7 +68,7 @@ element selected.active {
     text-color:       @selected-active-foreground;
 }
 element alternate.normal {
-    background-color: @alternate-normal-background;
+    background-color: transparent;
     text-color:       @alternate-normal-foreground;
 }
 element alternate.urgent {
@@ -96,6 +103,7 @@ mainbox {
     border:  0;
 }
 message {
+    children: ["inputbar", "listview", "message"];
     padding:      5px ;
     border-color: @separatorcolor;
     border:       2px dash 0px 0px ;
@@ -110,7 +118,7 @@ listview {
     scrollbar:    true;
     spacing:      2px ;
     fixed-height: 0;
-    lines: 12;
+    lines: 8;
     columns: 1;
 }
 scrollbar {
@@ -124,7 +132,7 @@ scrollbar {
 sidebar {
     border-color: @separatorcolor;
     border:       2px dash 0px 0px;
-    padding: 4px;
+    padding:      4px;
 }
 button {
     cursor:     pointer;
@@ -135,25 +143,13 @@ button selected {
     background-color: @selected-normal-background;
     text-color:       @selected-normal-foreground;
 }
-num-filtered-rows {
-    expand:     false;
-    text-color: Gray;
-}
-num-rows {
-    expand:     false;
-    text-color: Gray;
-}
-textbox-num-sep {
-    expand:     false;
-    str:        "/";
-    text-color: Gray;
-}
+
 inputbar {
     padding:    8px ;
     spacing:    2px ;
     text-color: @normal-foreground;
     children:   [ "prompt", "entry" ];
-    border: 2px;
+    border: 1px;
     border-radius: 8px;
 }
 case-indicator {
@@ -163,7 +159,7 @@ case-indicator {
 entry {
     text-color:        @normal-foreground;
     cursor:            text;
-    spacing:           0;
+    spacing:           2;
     placeholder-color: Gray;
     placeholder:       "";
 }
