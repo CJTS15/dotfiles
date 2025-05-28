@@ -10,6 +10,7 @@ configuration {
   location: 0;
   disable-history: false;
   hide-scrollbar: false;
-  display-drun: " ";
+  display-drun: "App ";
+  display-emoji: "Emoji ";
 
 }
