@@ -2,7 +2,7 @@
 
 configuration {
 
-  font: "Firacode Nerd Font 12";
+  font: "Inter 14";
   modi: "window,drun,emoji";
   show-icons: true;
   icon-theme: "Tela-purple-dark";
