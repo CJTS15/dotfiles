@@ -7,9 +7,6 @@ oh-my-posh init fish --config $HOME/dotfiles/ohmyposh/.config/ohmyposh/catppucci
 #Zoxide
 zoxide init --cmd cd fish | source
 
-#Fz
-fzf --fish | source
-
 #Yazi
 function y
 	set tmp (mktemp -t "yazi-cwd.XXXXXX")
