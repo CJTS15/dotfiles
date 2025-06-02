@@ -52,6 +52,10 @@ decoration:backdrop {
 .csd decoration:backdrop {
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.16), 0 0 0 1px @inactive_window_bg_color;
 }
+
+.maximized headerbar, .maximized decoration {
+  border-style: none;
+}
 /***** scrollbar slider - cinnamon-settings-generated - do not edit *****/
 
 /***** scrollbar slider - cinnamon-settings-generated - do not edit *****/
