@@ -76,7 +76,7 @@ mainbox {
     enabled:                     true;
     spacing:                     5px;
     margin:                      0px;
-    padding:                     5px;
+    padding:                     20px;
     border:                      0px solid;
     border-radius:               0px 0px 0px 0px;
     border-color:                @border-colour;
