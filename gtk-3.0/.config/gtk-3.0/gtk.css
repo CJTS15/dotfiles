@@ -18,29 +18,21 @@ headerbar {
 headerbar:not(:backdrop) {
   border: 1px solid @active_window_bg_color;
   border-bottom-style: none;
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
 }
 
 headerbar:backdrop {
   border: 1px solid @inactive_window_bg_color;
   border-bottom-style: none;
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
 }
 
 decoration:not(:backdrop) {
   border: 1px solid @active_window_bg_color;
   background: @active_window_bg_color;
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
 }
 
 decoration:backdrop {
   border: 1px solid @inactive_window_bg_color;
   background: @inactive_window_bg_color;
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
 }
 
 .csd headerbar:not(:backdrop) {
@@ -63,10 +55,11 @@ decoration:backdrop {
   border-style: none;
 }
 
-/* .maximized headerbar, .maximized decoration {
+.maximized headerbar, .maximized decoration {
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
-} */
+}
+
 
 /***** scrollbar slider - cinnamon-settings-generated - do not edit *****/
 
