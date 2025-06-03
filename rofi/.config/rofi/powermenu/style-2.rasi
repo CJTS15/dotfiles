@@ -32,7 +32,7 @@ window {
     margin:                      0px;
     padding:                     0px;
     border:                      1px solid;
-    border-radius:               12px;
+    border-radius:               6px;
     border-color:                @selected;
     cursor:                      "default";
     background-color:            @background;
@@ -68,7 +68,7 @@ inputbar {
 textbox-prompt-colon {
     enabled:                     true;
     expand:                      false;
-    str:                         " ";
+    str:                         "";
     padding:                     12px;
     border-radius:               8px;
     background-color:            @urgent;
@@ -78,7 +78,7 @@ prompt {
     enabled:                     true;
     padding:                     12px;
     border-radius:               8px;
-    background-color:            @active;
+    background-color:            @selected;
     text-color:                  @background;
 }
 
