@@ -1,5 +1,5 @@
 {
-  "name": "dracula",
+  "name": "dracula-custom",
   "schemaVersion": 1,
   "colors": {
     "background": {
@@ -8,27 +8,27 @@
     },
     "foreground": {
       "hex": "#f8f8f2",
-      "palette": 229
+      "palette": 231
     },
     "frame_focused": {
-      "hex": "#8be9fd",
-      "palette": 167
+      "hex": "#ff79c6",
+      "palette": 213
     },
     "frame_important": {
-      "hex": "#458588",
-      "palette": 66
+      "hex": "#8be9fd",
+      "palette": 123
     },
     "text_focused": {
-      "hex": "#8be9fd",
-      "palette": 167
+      "hex": "#ff79c6",
+      "palette": 213
     },
     "text_active": {
-      "hex": "#bd93f9",
-      "palette": 142
+      "hex": "#8be9fd",
+      "palette": 123
     },
     "text_disabled": {
-      "hex": "#44475a",
-      "palette": 243
+      "hex": "#6272a4",
+      "palette": 60
     },
     "text_hidden": {
       "hex": "#44475a",
@@ -36,59 +36,59 @@
     },
     "text_warning": {
       "hex": "#f1fa8c",
-      "palette": 214
+      "palette": 229
     },
     "text_error": {
       "hex": "#ff5555",
-      "palette": 167
+      "palette": 203
     },
     "overlay_background": {
-      "hex": "#282a36",
-      "palette": 239
-    },
-    "overlay_foreground": {
-      "hex": "#f8f8f2",
-      "palette": 223
-    },
-    "overlay_border": {
-      "hex": "#6272a4",
-      "palette": 109
-    },
-    "overlay_focused_border": {
-      "hex": "#8be9fd",
-      "palette": 167
-    },
-    "overlay_focused_text": {
-      "hex": "#8be9fd",
-      "palette": 167
-    },
-    "shortcuts_background": {
-      "hex": "#44475a",
-      "palette": 239
-    },
-    "shortcuts_foreground": {
-      "hex": "#f8f8f2",
-      "palette": 223
-    },
-    "shortcuts_background_focused": {
-      "hex": "#ff5555",
-      "palette": 124
-    },
-    "shortcuts_foreground_focused": {
-      "hex": "#f8f8f2",
-      "palette": 229
-    },
-    "button_background_normal": {
-      "hex": "#f8f8f2",
-      "palette": 223
-    },
-    "button_foreground_normal": {
       "hex": "#44475a",
       "palette": 237
     },
+    "overlay_foreground": {
+      "hex": "#f8f8f2",
+      "palette": 231
+    },
+    "overlay_border": {
+      "hex": "#ff79c6",
+      "palette": 213
+    },
+    "overlay_focused_border": {
+      "hex": "#ff79c6",
+      "palette": 213
+    },
+    "overlay_focused_text": {
+      "hex": "#ff79c6",
+      "palette": 213
+    },
+    "shortcuts_background": {
+      "hex": "#44475a",
+      "palette": 237
+    },
+    "shortcuts_foreground": {
+      "hex": "#f8f8f2",
+      "palette": 231
+    },
+    "shortcuts_background_focused": {
+      "hex": "#8be9fd",
+      "palette": 123
+    },
+    "shortcuts_foreground_focused": {
+      "hex": "#282a36",
+      "palette": 235
+    },
+    "button_background_normal": {
+      "hex": "#f8f8f2",
+      "palette": 231
+    },
+    "button_foreground_normal": {
+      "hex": "#282a36",
+      "palette": 235
+    },
     "button_background_active": {
-      "hex": "#bd93f9",
-      "palette": 142
+      "hex": "#8be9fd",
+      "palette": 123
     },
     "button_foreground_active": {
       "hex": "#282a36",
@@ -99,64 +99,64 @@
       "palette": 235
     },
     "header_foreground": {
-      "hex": "#f8f8f2",
-      "palette": 243
+      "hex": "#6272a4",
+      "palette": 60
     },
     "footer_background": {
-      "hex": "#ff79c6",
-      "palette": 132
+      "hex": "#bd93f9",
+      "palette": 141
     },
     "footer_foreground": {
-      "hex": "#6272a4",
-      "palette": 229
+      "hex": "#f8f8f2",
+      "palette": 231
     },
     "banner_background": {
       "hex": "#8be9fd",
-      "palette": 66
+      "palette": 123
     },
     "banner_foreground": {
-      "hex": "#f8f8f2",
-      "palette": 229
+      "hex": "#282a36",
+      "palette": 235
     },
     "list_header_background": {
-      "hex": "#282a36",
+      "hex": "#44475a",
       "palette": 237
     },
     "list_header_foreground": {
-      "hex": "#bd93f9",
-      "palette": 214
+      "hex": "#ff79c6",
+      "palette": 213
     },
-      "list_header_highlighted_background": {
+    "list_header_highlighted_background": {
       "hex": "#bd93f9",
-      "palette": 214
+      "palette": 141
     },
     "list_header_highlighted_foreground": {
-      "hex": "#44475a",
-      "palette": 237
+      "hex": "#f8f8f2",
+      "palette": 231
     },
     "list_item_highlighted_background": {
       "hex": "#bd93f9",
-      "palette": 142
+      "palette": 141
     },
     "list_item_highlighted_foreground": {
-      "hex": "#44475a",
-      "palette": 237
+      "hex": "#f8f8f2",
+      "palette": 231
     },
     "list_item_active_background": {
       "hex": "#8be9fd",
-      "palette": 109
+      "palette": 123
     },
     "list_item_active_foreground": {
-      "hex": "#282828",
+      "hex": "#282a36",
       "palette": 235
     },
     "list_item_active_highlighted_background": {
       "hex": "#bd93f9",
-      "palette": 66
+      "palette": 141
     },
     "list_item_active_highlighted_foreground": {
       "hex": "#f8f8f2",
-      "palette": 229
+      "palette": 231
     }
   }
 }
