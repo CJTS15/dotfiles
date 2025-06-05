@@ -1,8 +1,8 @@
 set fish_greeting
 
 #OhMyPosh theme
-#oh-my-posh init fish --config $HOME/dotfiles/ohmyposh/.config/ohmyposh/tokyo-night.json | source
-oh-my-posh init fish --config $HOME/dotfiles/ohmyposh/.config/ohmyposh/catppuccin-mocha.json | source
+#oh-my-posh init fish --config $HOME/dotfiles/ohmyposh/.config/ohmyposh/catppuccin.json | source
+oh-my-posh init fish --config $HOME/dotfiles/ohmyposh/.config/ohmyposh/dracula.json | source
 
 #Zoxide
 zoxide init --cmd cd fish | source
