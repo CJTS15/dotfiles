@@ -1,0 +1,103 @@
+
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "palette": {
+        "os": "#ACB0BE",
+        "closer": "#F1FA8C",
+        "pink": "#FF79C6",
+        "lavender": "#BD93F9",
+        "blue":  "#8BE9FD"
+  },
+  "blocks": [
+    {
+      "alignment": "left",
+      "newline": true,
+      "segments": [
+        {
+          "foreground": "p:pink",
+          "properties": {
+            "folder_icon": "..\ue5fe..",
+            "home_icon": "~",
+            "style": "agnoster_short"
+          },
+          "style": "plain",
+          "template": " {{ .Path }} ",
+          "type": "path"
+        },
+        {
+          "foreground": "p:lavender",
+          "properties": {
+            "branch_icon": "\ue725 ",
+            "cherry_pick_icon": "\ue29b ",
+            "commit_icon": "\uf417 ",
+            "fetch_status": false,
+            "fetch_upstream_icon": false,
+            "merge_icon": "\ue727 ",
+            "no_commits_icon": "\uf0c3 ",
+            "rebase_icon": "\ue728 ",
+            "revert_icon": "\uf0e2 ",
+            "tag_icon": "\uf412 "
+          },
+          "template": "{{ .HEAD }} ",
+          "style": "plain",
+          "type": "git"
+        },
+        {
+          "style": "plain",
+          "foreground": "p:closer",
+          "template": "\u26a1",
+          "type": "text"
+        },
+        {
+          "type": "status",
+          "style": "plain",
+          "foreground": "p:pink",
+          "template": " \uf00d"
+        }
+      ],
+      "type": "prompt"
+    },
+    {
+      "alignment": "right",
+      "overflow": "hide",
+      "segments": [
+        {
+          "type": "command",
+          "style": "plain",
+          "foreground": "p:blue",
+          "properties": {
+            "command": "git log --pretty=format:%cr -1 || date +%H:%M:%S",
+            "shell": "fish"
+          }
+        }
+      ],
+      "type": "prompt"
+    },
+    {
+      "alignment": "left",
+      "newline": true,
+      "segments": [
+        {
+          "type": "text",
+          "style": "plain",
+          "background": "transparent",
+          "foreground": "p:blue",
+          "template": " \uf105 "
+        }
+      ],
+      "type": "prompt"
+    }
+  ],
+  "secondary_prompt": {
+    "background": "transparent",
+    "foreground": "p:blue",
+    "template": "\u279c "
+  },
+  "transient_prompt": {
+    "background": "transparent",
+    "foreground": "p:blue",
+    "template": " \uf105 "
+  },
+  "final_space": true,
+  "version": 3
+}
