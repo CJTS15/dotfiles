@@ -1,0 +1,25 @@
+# Apache
+abbr a2reload "sudo systemctl reload apache2"
+abbr a2restart "sudo systemctl restart apache2"
+abbr a2stop "sudo systemctl stop apache2"
+
+# Git
+abbr g "git"
+abbr ga. "git add ."
+abbr ga "git add"
+abbr gb "git branch"
+abbr gbd "git branch -D"
+abbr gcm "git commit -m"
+abbr gcm!!! "git add .; and git commit -m ""; and git push"
+abbr gco "git checkout"
+abbr gcob "git checkout -b"
+abbr gcod "git checkout development"
+abbr gi "gitignore"
+abbr gm "git merge"
+abbr gpl "git pull"
+abbr gps "git push"
+abbr gpsu "git push -u origin master"
+abbr gs "git status"
+abbr gc "git clone"
+abbr gd "git diff"
+
