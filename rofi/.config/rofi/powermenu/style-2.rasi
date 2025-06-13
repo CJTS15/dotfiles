@@ -68,8 +68,8 @@ inputbar {
 textbox-prompt-colon {
     enabled:                     true;
     expand:                      false;
-    str:                         "";
-    padding:                     12px;
+    str:                         "";
+    padding:                     12px 18px 12px 12px;
     border-radius:               8px;
     background-color:            @urgent;
     text-color:                  @background;
