@@ -77,12 +77,12 @@
         "break",
 
         {
-            "type": "shell",
+            "type": "terminal",
             "key": "╭─",
             "keyColor": "green"
         },
         {
-            "type": "terminal",
+            "type": "shell",
             "key": "├─",
             "keyColor": "green"
         },
