@@ -1,0 +1,75 @@
+#!/usr/bin/env bash
+
+# Dependencies: rofi, bluetoothctl, awk, grep
+
+# Helper functions
+enable_bluetooth() {
+    rfkill unblock bluetooth
+    bluetoothctl power on
+    # Start blueman-applet if not already running
+    if ! pgrep -x "blueman-applet" > /dev/null; then
+        blueman-applet &
+    fi
+}
+
+disable_bluetooth() {
+    bluetoothctl power off
+    # Kill blueman-applet if running
+    pkill -x blueman-applet
+}
+
+scan_devices() {
+    bluetoothctl scan on &
+    sleep 5
+    bluetoothctl scan off
+    bluetoothctl devices | awk '{print $2 " " substr($0, index($0,$3))}'
+}
+
+connect_device() {
+    local device_mac="$1"
+    bluetoothctl connect "$device_mac"
+}
+
+disconnect_device() {
+    local device_mac="$1"
+    bluetoothctl disconnect "$device_mac"
+}
+
+# Main menu
+main_menu() {
+    echo -e "Enable Bluetooth\nDisable Bluetooth\nScan for Devices\nConnect to Device\nDisconnect from Device\nExit" | rofi -dmenu -p "Bluetooth Menu" -config "~/.config/rofi/bluetoothmenu/style-1.rasi"
+}
+
+# Device selection menu
+select_device() {
+    bluetoothctl devices | awk '{print $2 " " substr($0, index($0,$3))}' | rofi -dmenu -p "$1" -config "~/.config/rofi/bluetoothmenu/style-1.rasi"
+}
+
+# Entry point
+choice=$(main_menu)
+
+case "$choice" in
+    "Enable Bluetooth")
+        enable_bluetooth
+        notify-send "Bluetooth" "Bluetooth enabled"
+        ;;
+    "Disable Bluetooth")
+        disable_bluetooth
+        notify-send "Bluetooth" "Bluetooth disabled"
+        ;;
+    "Scan for Devices")
+        devices=$(scan_devices)
+        echo "$devices" | rofi -dmenu -p "Scanned Devices" -config "~/.config/rofi/bluetoothmenu/style-1.rasi"
+        ;;
+    "Connect to Device")
+        device=$(select_device "Connect")
+        [[ -n "$device" ]] && connect_device "$(echo "$device" | awk '{print $1}')" && notify-send "Bluetooth" "Connected to $device"
+        ;;
+    "Disconnect from Device")
+        device=$(select_device "Disconnect")
+        [[ -n "$device" ]] && disconnect_device "$(echo "$device" | awk '{print $1}')" && notify-send "Bluetooth" "Disconnected from $device"
+        ;;
+    *)
+        exit 0
+        ;;
+esac
