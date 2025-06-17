@@ -1,0 +1,45 @@
+#!/usr/bin/env bash
+
+# Dependencies: rofi, pactl, jq, notify-send
+
+# Show the main menu
+action=$(printf "󰓃  Output\n  Input" | rofi -dmenu -i -p "Audio Switcher" -config "~/.config/rofi/audiomenu/style-1.rasi")
+
+# If cancelled
+[ -z "$action" ] && exit
+
+# ----- Output Switch -----
+if [[ "$action" == "󰓃  Output" ]]; then
+    sinks=$(pactl -f json list sinks | jq -r '.[] | "\(.description) ::: \(.name)"')
+    choice=$(echo "$sinks" | cut -d ':' -f 1 | rofi -dmenu -i -p "Select Output" -config "~/.config/rofi/audiomenu/style-1.rasi")
+
+    [ -z "$choice" ] && exit
+
+    sink_name=$(echo "$sinks" | grep -F "$choice" | sed 's/^.*::: //')
+    [ -n "$sink_name" ] && pactl set-default-sink "$sink_name"
+
+    for input in $(pactl list short sink-inputs | cut -f1); do
+        pactl move-sink-input "$input" "$sink_name"
+    done
+
+    notify-send "󰓃 Output switched to" "$choice"
+    exit
+fi
+
+# ----- Input Switch -----
+if [[ "$action" == "  Input" ]]; then
+    sources=$(pactl -f json list sources | jq -r '.[] | select(.name | test("monitor") | not) | "\(.description) ::: \(.name)"')
+    choice=$(echo "$sources" | cut -d ':' -f 1 | rofi -dmenu -i -p "Select Input" -config "~/.config/rofi/audiomenu/style-1.rasi")
+
+    [ -z "$choice" ] && exit
+
+    source_name=$(echo "$sources" | grep -F "$choice" | sed 's/^.*::: //')
+    [ -n "$source_name" ] && pactl set-default-source "$source_name"
+
+    for output in $(pactl list short source-outputs | cut -f1); do
+        pactl move-source-output "$output" "$source_name"
+    done
+
+    notify-send " Input switched to" "$choice"
+    exit
+fi
