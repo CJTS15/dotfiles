@@ -40,7 +40,7 @@ window {
     location:                    center;
     anchor:                      center;
     fullscreen:                  false;
-    width:                       720px;
+    width:                       512px;
     x-offset:                    0px;
     y-offset:                    0px;
 
@@ -48,9 +48,9 @@ window {
     enabled:                     true;
     margin:                      0px;
     padding:                     0px;
-    border:                      1px solid;
     border-radius:               6px;
-    border-color:                @border-colour;
+    border:                      0px solid;
+    border-color:                @background-colour;
     cursor:                      "default";
     background-color:            @background-colour;
 }
