@@ -49,8 +49,8 @@ window {
     margin:                      0px;
     padding:                     0px;
     border-radius:               6px;
-    border:                      0px solid;
-    border-color:                @background-colour;
+    border:                      2px solid;
+    border-color:                @alternate-background;
     cursor:                      "default";
     background-color:            @background-colour;
 }
