@@ -37,16 +37,17 @@ configuration {
 window {
     /* properties for window widget */
     transparency:                "real";
-    location:                    center;
-    anchor:                      center;
+    location:                    northeast;
+    anchor:                      northeast;
     fullscreen:                  false;
-    width:                       512px;
+    width:                       25%;
+    height:                      25%;
     x-offset:                    0px;
-    y-offset:                    0px;
+    y-offset:                    30px;
 
     /* properties for all widgets */
     enabled:                     true;
-    margin:                      0px;
+    margin:                      15px;
     padding:                     0px;
     border-radius:               6px;
     border:                      2px solid;

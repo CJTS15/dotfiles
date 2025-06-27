@@ -2,8 +2,11 @@
 
 # Dependencies: rofi, pactl, jq, notify-send
 
+#CMD
+host=`hostname`
+
 # Show the main menu
-action=$(printf "󰓃  Output\n  Input" | rofi -dmenu -i -p "Audio Switcher" -config "~/.config/rofi/audiomenu/style-1.rasi")
+action=$(printf "󰓃  Output\n  Input" | rofi -dmenu -i -p $host -config "~/.config/rofi/audiomenu/style-1.rasi")
 
 # If cancelled
 [ -z "$action" ] && exit

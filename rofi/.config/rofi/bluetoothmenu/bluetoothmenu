@@ -2,6 +2,9 @@
 
 # Dependencies: rofi, bluetoothctl, awk, grep
 
+#CMD
+host=`hostname`
+
 # Helper functions
 enable_bluetooth() {
     rfkill unblock bluetooth
@@ -37,7 +40,7 @@ disconnect_device() {
 
 # Main menu
 main_menu() {
-    echo -e "Enable Bluetooth\nDisable Bluetooth\nScan for Devices\nConnect to Device\nDisconnect from Device\nExit" | rofi -dmenu -p "Bluetooth Menu" -config "~/.config/rofi/bluetoothmenu/style-1.rasi"
+    echo -e "Enable Bluetooth\nDisable Bluetooth\nScan for Devices\nConnect to Device\nDisconnect from Device\nExit" | rofi -dmenu -p $host -config "~/.config/rofi/bluetoothmenu/style-1.rasi"
 }
 
 # Device selection menu

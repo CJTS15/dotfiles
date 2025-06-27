@@ -48,13 +48,14 @@ window {
     location:                    center;
     anchor:                      center;
     fullscreen:                  false;
-    width:                       512px;
+    width:                       35%;
+    height:                      35%;
     x-offset:                    0px;
     y-offset:                    0px;
 
     /* properties for all widgets */
     enabled:                     true;
-    margin:                      0px;
+    margin:                      15px;
     padding:                     0px;
     border-radius:               6px;
     border:                      2px solid;
@@ -115,7 +116,7 @@ entry {
 listview {
     enabled:                     true;
     columns:                     1;
-    lines:                       8;
+    lines:                       6;
     cycle:                       true;
     dynamic:                     true;
     scrollbar:                   false;
