@@ -1,12 +1,3 @@
-/**
- *
- * Author : Aditya Shakya (adi1090x)
- * Github : @adi1090x
- * 
- * Fonts
- *
- **/
-
 * {
-    font: "Inter 14";
+    font: "SF Pro Regular 14";
 }
