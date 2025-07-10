@@ -49,7 +49,7 @@ window {
     anchor:                      center;
     fullscreen:                  false;
     width:                       35%;
-    height:                      35%;
+    height:                      40%;
     x-offset:                    0px;
     y-offset:                    0px;
 

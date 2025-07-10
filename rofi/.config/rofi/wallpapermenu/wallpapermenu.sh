@@ -12,7 +12,7 @@ else
   # Let user choose a wallpaper using rofi
   SELECTED=$(find "$WALLPAPER_DIR" -type f \( -iname '*.jpg' -o -iname '*.png' -o -iname '*.jpeg' \) \
     | sed "s|$HOME/Pictures/Wallpapers/||" \
-    | rofi -dmenu -p "Choose Wallpaper" -config "~/.config/rofi/wallpapermenu/style-1.rasi")
+    | rofi -dmenu -p "󰸉 " -config "~/.config/rofi/wallpapermenu/style-1.rasi")
 
   # If nothing selected, exit
   [[ -z "$SELECTED" ]] && exit 0
