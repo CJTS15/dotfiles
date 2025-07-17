@@ -1,7 +1,7 @@
 # Apache
-abbr a2reload "sudo systemctl reload apache2"
-abbr a2restart "sudo systemctl restart apache2"
-abbr a2stop "sudo systemctl stop apache2"
+abbr apache2reload "sudo systemctl reload apache2"
+abbr apache2restart "sudo systemctl restart apache2"
+abbr apache2stop "sudo systemctl stop apache2"
 
 # Git
 abbr g "git"
