@@ -124,6 +124,258 @@ decoration:backdrop {
 
 
 /***** scrollbar slider - cinnamon-settings-generated - do not edit *****/
+VteTerminal, TerminalScreen, vte-terminal {
+  padding: 10px;
+  -VteTerminal-inner-border: 10px;
+}
+/* 
+@define-color active_window_bg_color @theme_selected_bg_color;
+@define-color active_window_fg_color @theme_selected_fg_color;
+
+@define-color inactive_window_fg_color @theme_unfocused_fg_color;
+@define-color inactive_window_bg_color @theme_unfocused_bg_color;
+
+headerbar {
+    box-shadow: none;
+}
+
+headerbar:not(:backdrop) {
+  border: 1px solid @active_window_bg_color;
+  border-bottom-style: none;
+}
+
+headerbar:backdrop {
+  border: 1px solid @inactive_window_bg_color;
+  border-bottom-style: none;
+}
+
+decoration:not(:backdrop) {
+  border: 1px solid @active_window_bg_color;
+  background: @active_window_bg_color;
+}
+
+decoration:backdrop {
+  border: 1px solid @inactive_window_bg_color;
+  background: @inactive_window_bg_color;
+}
+
+.csd headerbar:not(:backdrop) {
+  border: 1px solid @active_window_bg_color;
+  border-style: none;
+}
+
+.csd headerbar:backdrop {
+  border: 1px solid @inactive_window_bg_color;
+  border-style: none;
+}
+
+.csd decoration:not(:backdrop) {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.16), 0 0 0 1px @active_window_bg_color;
+  border-style: none;
+}
+
+.csd decoration:backdrop {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.16), 0 0 0 1px @inactive_window_bg_color;
+  border-style: none;
+}
+
+.maximized headerbar, .maximized decoration {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+ } 
+*/
+
+
+/***** scrollbar slider - cinnamon-settings-generated - do not edit *****/
+VteTerminal, TerminalScreen, vte-terminal {
+  padding: 10px;
+  -VteTerminal-inner-border: 10px;
+}
+/* 
+@define-color active_window_bg_color @theme_selected_bg_color;
+@define-color active_window_fg_color @theme_selected_fg_color;
+
+@define-color inactive_window_fg_color @theme_unfocused_fg_color;
+@define-color inactive_window_bg_color @theme_unfocused_bg_color;
+
+headerbar {
+    box-shadow: none;
+}
+
+headerbar:not(:backdrop) {
+  border: 1px solid @active_window_bg_color;
+  border-bottom-style: none;
+}
+
+headerbar:backdrop {
+  border: 1px solid @inactive_window_bg_color;
+  border-bottom-style: none;
+}
+
+decoration:not(:backdrop) {
+  border: 1px solid @active_window_bg_color;
+  background: @active_window_bg_color;
+}
+
+decoration:backdrop {
+  border: 1px solid @inactive_window_bg_color;
+  background: @inactive_window_bg_color;
+}
+
+.csd headerbar:not(:backdrop) {
+  border: 1px solid @active_window_bg_color;
+  border-style: none;
+}
+
+.csd headerbar:backdrop {
+  border: 1px solid @inactive_window_bg_color;
+  border-style: none;
+}
+
+.csd decoration:not(:backdrop) {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.16), 0 0 0 1px @active_window_bg_color;
+  border-style: none;
+}
+
+.csd decoration:backdrop {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.16), 0 0 0 1px @inactive_window_bg_color;
+  border-style: none;
+}
+
+.maximized headerbar, .maximized decoration {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+ } 
+*/
+
+
+/***** scrollbar slider - cinnamon-settings-generated - do not edit *****/
+VteTerminal, TerminalScreen, vte-terminal {
+  padding: 10px;
+  -VteTerminal-inner-border: 10px;
+}
+/* 
+@define-color active_window_bg_color @theme_selected_bg_color;
+@define-color active_window_fg_color @theme_selected_fg_color;
+
+@define-color inactive_window_fg_color @theme_unfocused_fg_color;
+@define-color inactive_window_bg_color @theme_unfocused_bg_color;
+
+headerbar {
+    box-shadow: none;
+}
+
+headerbar:not(:backdrop) {
+  border: 1px solid @active_window_bg_color;
+  border-bottom-style: none;
+}
+
+headerbar:backdrop {
+  border: 1px solid @inactive_window_bg_color;
+  border-bottom-style: none;
+}
+
+decoration:not(:backdrop) {
+  border: 1px solid @active_window_bg_color;
+  background: @active_window_bg_color;
+}
+
+decoration:backdrop {
+  border: 1px solid @inactive_window_bg_color;
+  background: @inactive_window_bg_color;
+}
+
+.csd headerbar:not(:backdrop) {
+  border: 1px solid @active_window_bg_color;
+  border-style: none;
+}
+
+.csd headerbar:backdrop {
+  border: 1px solid @inactive_window_bg_color;
+  border-style: none;
+}
+
+.csd decoration:not(:backdrop) {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.16), 0 0 0 1px @active_window_bg_color;
+  border-style: none;
+}
+
+.csd decoration:backdrop {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.16), 0 0 0 1px @inactive_window_bg_color;
+  border-style: none;
+}
+
+.maximized headerbar, .maximized decoration {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+ } 
+*/
+
+
+/***** scrollbar slider - cinnamon-settings-generated - do not edit *****/
+VteTerminal, TerminalScreen, vte-terminal {
+  padding: 10px;
+  -VteTerminal-inner-border: 10px;
+}
+/* 
+@define-color active_window_bg_color @theme_selected_bg_color;
+@define-color active_window_fg_color @theme_selected_fg_color;
+
+@define-color inactive_window_fg_color @theme_unfocused_fg_color;
+@define-color inactive_window_bg_color @theme_unfocused_bg_color;
+
+headerbar {
+    box-shadow: none;
+}
+
+headerbar:not(:backdrop) {
+  border: 1px solid @active_window_bg_color;
+  border-bottom-style: none;
+}
+
+headerbar:backdrop {
+  border: 1px solid @inactive_window_bg_color;
+  border-bottom-style: none;
+}
+
+decoration:not(:backdrop) {
+  border: 1px solid @active_window_bg_color;
+  background: @active_window_bg_color;
+}
+
+decoration:backdrop {
+  border: 1px solid @inactive_window_bg_color;
+  background: @inactive_window_bg_color;
+}
+
+.csd headerbar:not(:backdrop) {
+  border: 1px solid @active_window_bg_color;
+  border-style: none;
+}
+
+.csd headerbar:backdrop {
+  border: 1px solid @inactive_window_bg_color;
+  border-style: none;
+}
+
+.csd decoration:not(:backdrop) {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.16), 0 0 0 1px @active_window_bg_color;
+  border-style: none;
+}
+
+.csd decoration:backdrop {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.16), 0 0 0 1px @inactive_window_bg_color;
+  border-style: none;
+}
+
+.maximized headerbar, .maximized decoration {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+ } 
+*/
+
+
+/***** scrollbar slider - cinnamon-settings-generated - do not edit *****/
 
 /***** scrollbar slider - cinnamon-settings-generated - do not edit *****/
 
