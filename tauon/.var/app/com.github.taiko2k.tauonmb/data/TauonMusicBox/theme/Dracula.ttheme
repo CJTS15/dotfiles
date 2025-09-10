@@ -1,0 +1,73 @@
+#Tauon Music Box Dracula Theme
+
+#-Backgrounds-----
+40, 42, 54      	player background (top panel)
+40, 42, 54	  		playlist panel
+40, 42, 54			side panel
+40, 42, 54			bottom panel
+40, 42, 54        	queue panel
+
+#-Playlist-------
+189, 147, 249		track line
+98, 114, 164		track time
+98, 114, 164		track index
+139, 233, 253		track artist
+241, 250, 140		album line
+
+248, 248, 242		track playing
+248, 248, 242		index playing
+139, 233, 253		artist playing
+241, 250, 140		album playing
+248, 248, 242		time playing
+
+68, 71, 90		    track missing
+
+255, 121, 198		fav line
+98, 114, 164		folder line
+241, 250, 140		folder title
+
+68, 71, 90		    playing highlight
+68, 71, 90,127		select highlight
+189, 147, 249		gallery highlight  # Changed to purple for contrast and to match Dracula
+
+#-Menu-------------
+40, 42, 54         menu background
+68, 71, 90         menu highlight
+248, 248, 242      menu text
+98, 114, 164       menu disable text
+
+#-Bottom panel------
+98, 114, 164		buttons off
+255, 184, 108		buttons over         # Optional warm contrast (orange)
+189, 147, 249		buttons active
+
+189, 147, 249		playing time
+
+189, 147, 249		seek bar
+189, 147, 249		volume bar
+68, 71, 90		    seek bg
+68, 71, 90		    volume bg
+98, 114, 164		scroll bar
+
+98, 114, 164		mode off
+255, 184, 108		mode over
+241, 250, 140		mode on
+
+248, 248, 242		bottom title
+
+#-Top panel---------
+248, 248, 242		tab active line
+98, 114, 164		tab line              # Slightly dimmed for depth
+40, 42, 54		    tab background
+68, 71, 90		    tab over
+189, 147, 249		tab active background
+80, 250, 123		music vis
+
+#-Side panel--------
+248, 248, 242		title info
+98, 114, 164		extra info
+68, 71, 90		    art border
+
+#-Mini Mode---------
+40, 42, 54         mini bg
+189, 147, 249      mini border           # Dracula purple for flair

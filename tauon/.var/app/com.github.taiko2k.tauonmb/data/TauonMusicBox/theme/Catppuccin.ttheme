@@ -1,0 +1,73 @@
+#Tauon Music Box Catppuccin Theme
+
+#-Backgrounds-----
+30, 30, 46      	player background (top panel)
+30, 30, 46	  		playlist panel
+30, 30, 46			side panel
+30, 30, 46			bottom panel
+30, 30, 46        	queue panel
+
+#-Playlist-------
+166, 227, 161		track line             # Green (playing color)
+108, 112, 134		track time             # Overlay0
+108, 112, 134		track index
+137, 180, 250		track artist           # Blue
+249, 226, 175		album line             # Yellow
+
+166, 227, 161		track playing          # Green
+205, 214, 244		index playing          # Text
+137, 180, 250		artist playing         # Blue
+249, 226, 175		album playing          # Yellow
+205, 214, 244		time playing           # Text
+
+243, 139, 168		track missing          # Red
+
+242, 143, 173		fav line               # Flamingo
+108, 112, 134		folder line            # Overlay0
+249, 226, 175		folder title           # Yellow
+
+49, 50, 68		    playing highlight      # Surface0
+49, 50, 68,127		select highlight       # Transparent version
+245, 194, 231		gallery highlight      # Pink
+
+#-Menu-------------
+30, 30, 46         menu background
+49, 50, 68         menu highlight
+205, 214, 244      menu text              # Text
+108, 112, 134      menu disable text      # Overlay0
+
+#-Bottom panel------
+108, 112, 134		buttons off
+249, 226, 175		buttons over           # Yellow
+203, 166, 247		buttons active         # Mauve
+
+203, 166, 247		playing time           # Mauve
+
+203, 166, 247		seek bar               # Mauve
+180, 190, 254		volume bar             # Lavender
+49, 50, 68		    seek bg                # Surface0
+49, 50, 68		    volume bg
+108, 112, 134		scroll bar
+
+108, 112, 134		mode off
+249, 226, 175		mode over
+166, 227, 161		mode on                # Green
+
+205, 214, 244		bottom title
+
+#-Top panel---------
+205, 214, 244		tab active line
+108, 112, 134		tab line
+30, 30, 46		    tab background
+49, 50, 68		    tab over
+203, 166, 247		tab active background  # Mauve
+166, 227, 161		music vis              # Green
+
+#-Side panel--------
+205, 214, 244		title info
+108, 112, 134		extra info
+49, 50, 68		    art border
+
+#-Mini Mode---------
+30, 30, 46         mini bg
+203, 166, 247      mini border            # Mauve
