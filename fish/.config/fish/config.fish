@@ -3,8 +3,8 @@ set --export Editor "subl -w"
 source "$HOME/.config/fish/abbreviations.fish"
 
 # OhMyPosh theme
-#oh-my-posh init fish --config $HOME/dotfiles/ohmyposh/.config/ohmyposh/catppuccin.json | source
-oh-my-posh init fish --config $HOME/dotfiles/ohmyposh/.config/ohmyposh/dracula.json | source
+oh-my-posh init fish --config $HOME/dotfiles/ohmyposh/.config/ohmyposh/catppuccin.json | source
+#oh-my-posh init fish --config $HOME/dotfiles/ohmyposh/.config/ohmyposh/dracula.json | source
 
 # Zoxide
 zoxide init --cmd cd fish | source
@@ -20,8 +20,12 @@ function y
 end
 
 # Fzf
-fish_config theme choose "Dracula Official"
-set -Ux FZF_DEFAULT_OPTS "--color=fg:#f8f8f2,bg:#282a36,hl:#bd93f9 --color=fg+:#f8f8f2,bg+:#44475a,hl+:#bd93f9 --color=info:#ffb86c,prompt:#50fa7b,pointer:#ff79c6 --color=marker:#ff79c6,spinner:#ffb86c,header:#6272a4"
+set -Ux FZF_DEFAULT_OPTS "\
+--color=bg+:#363A4F,bg:#24273A,spinner:#F4DBD6,hl:#ED8796 \
+--color=fg:#CAD3F5,header:#ED8796,info:#C6A0F6,pointer:#F4DBD6 \
+--color=marker:#B7BDF8,fg+:#CAD3F5,prompt:#C6A0F6,hl+:#ED8796 \
+--color=selected-bg:#494D64 \
+--color=border:#6E738D,label:#CAD3F5"
 
 if status is-interactive
     # Commands to run in interactive sessions can go here

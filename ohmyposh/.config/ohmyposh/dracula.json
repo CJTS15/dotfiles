@@ -89,16 +89,6 @@
       "type": "prompt"
     }
   ],
-  "secondary_prompt": {
-    "background": "transparent",
-    "foreground": "p:selected",
-    "template": "\u279c "
-  },
-  "transient_prompt": {
-    "background": "transparent",
-    "foreground": "p:selected",
-    "template": " \uf105 "
-  },
   "final_space": true,
   "version": 3
 }
